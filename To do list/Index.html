@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index</title>
+  </head>
+  <body>
+  <h1>Welcome to your to-do list</h1>
+<center>
+  <h3>Do you want to add a new task?</h3>
+  <fieldset style="width: fit-content">
+    <form method="get">
+      <p>
+        <label>
+          <input type="radio" name="answer" value="Yes" required /> Yes
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" name="answer" value="No" required /> No
+        </label>
+      </p>
+      <p>
+        <button type="submit" formaction="Add_Task.html" id="yesButton">
+          Go to Add a Task
+        </button>
+        <button type="submit" formaction="Index.html" id="noButton">
+          Go to Index
+        </button>
+      </p>
+    </form>
+  </fieldset>
+  <p>
+    <em>Other things:</em>
+  </p>
+  <a href="View_Task.html">
+    <button type="button">View pending tasks</button>
+  </a>
+  <a href="Schedule.html">
+    <button type="button">See your schedule</button>
+  </a>
+</center>
+</center>
+</body>
+</html>
